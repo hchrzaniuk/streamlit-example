@@ -116,7 +116,7 @@ class Application:
                     st.button("CHECK!", key=f"check{str(idx)}", on_click=self.check_answer, args=(str(idx)))
 
         else:
-            st.header("Can you guessa a name of object by the description ?")
+            st.header("Can you guess a name of object by the description ?")
             st.button("HIT THE BUTTON AND START THE GAME❕", on_click=self.get_things)
     def debug(self):
         st.text_area('', '', key=f"debug_query", disabled=True, label_visibility="collapsed")
