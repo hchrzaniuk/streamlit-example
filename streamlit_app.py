@@ -81,7 +81,7 @@ class Application:
         self.debug_set(f"debug_queryriddle", queryr)
 
     def sidebar(self):
-        self._api_key = st.sidebar.text_input("APIkey", type="password", value="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")
+        self._api_key = st.sidebar.text_input("APIkey", type="password", value="")
         txt = st.sidebar.text_area('CATEGORIES (seprate with ;)', '''kitchen; cars; living room; technology; cinema; home; bathroom; human; nature; forest''', key="categories")
         with st.sidebar.expander("ANSWERS! (check only if you MUST)", expanded=st.session_state.expanded):
             for wordidx in self._riddle_count:
