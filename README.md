@@ -1,6 +1,9 @@
-# Welcome to Streamlit!
+# Simple Charades Game
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
+This is exemplary game where GPT-3 neural network describes items teh user has to guess.
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+The game is deployed on https://streamlit.io/
+
+PLAY! ENJOY! COPY AND MODIFY!
+
+Thank you :stuck_out_tongue_winking_eye:
